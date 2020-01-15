@@ -13,3 +13,34 @@
   justify-content: center;
   color: white;
 }
+
+.Search-Query {
+  background-color: rgb(145, 145, 145);
+}
+
+.Search-Filter {
+  background-color: lightgrey;
+}
+
+.Search-Query, .Search-Filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+
+.Search label {
+  margin: 7px;
+}
+
+.bookItem {
+  border-bottom: gray 2px solid;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  align-items: center;
+}
+
+.bookInfo {
+  width: 200px;
+}
